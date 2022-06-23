@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and limitations under the License.
 
 #include "ObjectRegistry.h"
-#include "lauxlib.h"
+#include "lua.hpp"
 #include "LowLevel.h"
 #include "LuaEnv.h"
 #include "UnLuaDelegates.h"

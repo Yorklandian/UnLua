@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.6",
+	"FriendlyName": "ToolKit",
+	"Description": "G6 ToolKit supports remote debugging, profiling, logging, and more. ",
+	"Category": "Other",
+	"CreatedBy": "Tencent",
+	"CreatedByURL": "https://www.tencent.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ToolKit",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UnLua",
+			"Enabled": true, 
+			"Optional": true
+		}
+	]
+}

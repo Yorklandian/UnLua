@@ -1,3 +1,4 @@
+
 #ifndef LUASOCKET_H
 #define LUASOCKET_H
 /*=========================================================================*\
@@ -24,9 +25,9 @@
 #endif
 #endif
 
-#include "lua.h"
-#include "lauxlib.h"
+#include "lua.hpp"
 #include "compat.h"
+
 
 /*-------------------------------------------------------------------------*\
 * Initializes the library.
@@ -34,3 +35,4 @@
 LUASOCKET_API int luaopen_socket_core(lua_State *L);
 
 #endif /* LUASOCKET_H */
+

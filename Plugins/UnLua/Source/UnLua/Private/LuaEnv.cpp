@@ -20,10 +20,13 @@
 #include "LowLevel.h"
 #include "Registries/ObjectRegistry.h"
 #include "Registries/ClassRegistry.h"
-#include "lstate.h"
+extern "C"
+{
+    #include "lstate.h"
+}
 #include "LuaCore.h"
 #include "LuaDynamicBinding.h"
-#include "lualib.h"
+#include "lua.hpp"
 #include "UELib.h"
 #include "ObjectReferencer.h"
 #include "UnLuaDelegates.h"

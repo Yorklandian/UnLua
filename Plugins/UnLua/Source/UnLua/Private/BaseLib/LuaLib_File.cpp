@@ -1,8 +1,8 @@
 #include "UnLuaEx.h"
 #include "Containers/LuaArray.h"
 #include "LuaCore.h"
-#include "lauxlib.h"
-#include "luaconf.h"
+#include "lua.hpp"
+//#include "luaconf.h"
 #include "HAL/FileManager.h"
 
 
